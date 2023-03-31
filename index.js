@@ -67,6 +67,7 @@ function wagesEarnedOnDate(employeeRecord, date) {
 //     }, 0);
 //     return totalWages;
 //   }
+//
 
 function calculatePayroll(employeeRecords) {
     const totalWages = employeeRecords.reduce((acc, employee) => {
